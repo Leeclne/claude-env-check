@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-12",
+  "items": [
+    {
+      "name": "commit",
+      "description": "生成规范的 git commit message",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 480000,
+      "manualStats": true
+    },
+    {
+      "name": "review-pr",
+      "description": "对 Pull Request 进行代码审查",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 360000,
+      "manualStats": true
+    },
+    {
+      "name": "find-skills",
+      "description": "发现并安装社区 skill",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 290000,
+      "manualStats": true
+    },
+    {
+      "name": "simplify",
+      "description": "并行生成三个代理审查代码质量并优化",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 260000,
+      "manualStats": true
+    },
+    {
+      "name": "batch",
+      "description": "跨代码库大规模并行修改，每单元在独立 worktree 运行",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 210000,
+      "manualStats": true
+    },
+    {
+      "name": "loop",
+      "description": "按指定间隔重复运行 prompt（用于轮询、监控等）",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 180000,
+      "manualStats": true
+    },
+    {
+      "name": "claude-api",
+      "description": "加载 Claude API / Agent SDK 多语言参考文档",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 155000,
+      "manualStats": true
+    },
+    {
+      "name": "planning-with-files",
+      "description": "用持久化 markdown 文件作为磁盘工作记忆（Manus 风格）",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 75000,
+      "manualStats": true
+    },
+    {
+      "name": "using-superpowers",
+      "description": "对话开始时建立如何寻找和使用 skill 的规范",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 65000,
+      "manualStats": true
+    },
+    {
+      "name": "frontend-design",
+      "description": "生成高设计质量的生产级前端界面",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 120000,
+      "manualStats": true
+    },
+    {
+      "name": "debug",
+      "description": "读取会话调试日志并分析 Claude Code 自身问题",
+      "source": "official",
+      "repo": "https://github.com/anthropics/claude-code",
+      "installs": 95000,
+      "manualStats": true
+    },
+    {
+      "name": "claude-command-suite",
+      "description": "216+ 专业命令、12 个 skill、54 个 AI 代理与自动化工作流",
+      "source": "community",
+      "repo": "https://github.com/qdhenry/Claude-Command-Suite",
+      "stars": 1001,
+      "installs": 1001
+    },
+    {
+      "name": "production-commands",
+      "description": "生产就绪的智能自动化与多代理编排命令集",
+      "source": "community",
+      "repo": "https://github.com/wshobson/commands",
+      "stars": 2097,
+      "installs": 2097
+    },
+    {
+      "name": "claude-code-skills",
+      "description": "覆盖研究、测试、代码审查和质量门控的完整交付工作流",
+      "source": "community",
+      "repo": "https://github.com/levnikolaevich/claude-code-skills",
+      "stars": 194,
+      "installs": 194
+    }
+  ]
+}

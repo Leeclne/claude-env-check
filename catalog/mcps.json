@@ -1,0 +1,166 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-12",
+  "items": [
+    {
+      "name": "filesystem",
+      "description": "本地文件系统安全读写，可配置访问控制",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-filesystem",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 1097467
+    },
+    {
+      "name": "memory",
+      "description": "基于知识图谱的跨会话持久化记忆",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-memory",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 259698
+    },
+    {
+      "name": "fetch",
+      "description": "抓取网页内容并转换为 LLM 友好格式",
+      "source": "official",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 420000,
+      "manualStats": true
+    },
+    {
+      "name": "git",
+      "description": "读取、搜索和操作本地 Git 仓库",
+      "source": "official",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 350000,
+      "manualStats": true
+    },
+    {
+      "name": "sequential-thinking",
+      "description": "通过思维链进行动态反思性问题求解",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-sequential-thinking",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 294594
+    },
+    {
+      "name": "github",
+      "description": "GitHub Issues、PR、代码搜索与工作流",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-github",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 267810
+    },
+    {
+      "name": "gitlab",
+      "description": "GitLab 仓库、MR 和 CI/CD 集成",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-gitlab",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 18544
+    },
+    {
+      "name": "postgres",
+      "description": "PostgreSQL 数据库只读查询与 schema 检查",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-postgres",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 242585
+    },
+    {
+      "name": "sqlite",
+      "description": "SQLite 数据库操作与业务洞察",
+      "source": "official",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 210000,
+      "manualStats": true
+    },
+    {
+      "name": "google-drive",
+      "description": "Google Docs / Sheets / Slides 读写访问",
+      "source": "official",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 185000,
+      "manualStats": true
+    },
+    {
+      "name": "slack",
+      "description": "Slack 频道读取、线程总结与消息发送",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-slack",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 130512
+    },
+    {
+      "name": "brave-search",
+      "description": "Brave 搜索引擎网页与本地结果查询",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-brave-search",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 109097
+    },
+    {
+      "name": "puppeteer",
+      "description": "Puppeteer 浏览器自动化与网页截图",
+      "source": "official",
+      "package": "@modelcontextprotocol/server-puppeteer",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 92686
+    },
+    {
+      "name": "sentry",
+      "description": "Sentry 错误追踪与 Issue 管理",
+      "source": "official",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "installs": 78000,
+      "manualStats": true
+    },
+    {
+      "name": "playwright",
+      "description": "Microsoft Playwright 浏览器自动化与无障碍快照",
+      "source": "official",
+      "package": "@playwright/mcp",
+      "repo": "https://github.com/microsoft/playwright-mcp",
+      "installs": 6229944
+    },
+    {
+      "name": "supabase",
+      "description": "Supabase 数据库、Auth 与 Edge Functions",
+      "source": "community",
+      "package": "@supabase/mcp-server-supabase",
+      "repo": "https://github.com/supabase-community/supabase-mcp",
+      "installs": 250071
+    },
+    {
+      "name": "cloudflare",
+      "description": "部署管理 Cloudflare Workers、KV、R2 和 D1",
+      "source": "community",
+      "package": "@cloudflare/mcp-server-cloudflare",
+      "repo": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "installs": 9854
+    },
+    {
+      "name": "motherduck",
+      "description": "DuckDB / MotherDuck 分析型 SQL 查询",
+      "source": "community",
+      "repo": "https://github.com/motherduckdb/mcp-server-motherduck",
+      "installs": 12000,
+      "manualStats": true
+    },
+    {
+      "name": "firecrawl",
+      "description": "网页深度爬取与结构化数据提取",
+      "source": "community",
+      "package": "firecrawl-mcp",
+      "repo": "https://github.com/mendableai/firecrawl-mcp-server",
+      "installs": 163415
+    },
+    {
+      "name": "exa",
+      "description": "为 AI 设计的语义搜索引擎",
+      "source": "community",
+      "package": "exa-mcp-server",
+      "repo": "https://github.com/exa-labs/exa-mcp-server",
+      "installs": 39976
+    }
+  ]
+}
