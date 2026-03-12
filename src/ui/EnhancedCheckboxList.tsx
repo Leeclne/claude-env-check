@@ -89,24 +89,26 @@ export function EnhancedCheckboxList({
   const [searchQuery, setSearchQuery] = useState('')
   const [filterTierIndex, setFilterTierIndex] = useState(-1) // -1 = 全部
 
-  // 过滤后的列表
-  const filteredItems = items.filter((item) => {
-    const q = searchQuery.toLowerCase()
-    const matchesSearch =
-      q === '' ||
-      item.name.toLowerCase().includes(q) ||
-      item.description.toLowerCase().includes(q)
+  // Filtered list (sorted by installs descending)
+  const filteredItems = items
+    .filter((item) => {
+      const q = searchQuery.toLowerCase()
+      const matchesSearch =
+        q === '' ||
+        item.name.toLowerCase().includes(q) ||
+        item.description.toLowerCase().includes(q)
 
-    const matchesTier =
-      filterTierIndex === -1 ||
-      (() => {
-        const tier = ACTIVITY_TIERS[filterTierIndex]
-        const count = item.installs ?? 0
-        return tier ? count >= tier.min && count <= tier.max : true
-      })()
+      const matchesTier =
+        filterTierIndex === -1 ||
+        (() => {
+          const tier = ACTIVITY_TIERS[filterTierIndex]
+          const count = item.installs ?? 0
+          return tier ? count >= tier.min && count <= tier.max : true
+        })()
 
-    return matchesSearch && matchesTier
-  })
+      return matchesSearch && matchesTier
+    })
+    .sort((a, b) => (b.installs ?? 0) - (a.installs ?? 0))
 
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE))
   const safePage = Math.min(currentPage, totalPages - 1)
@@ -115,7 +117,7 @@ export function EnhancedCheckboxList({
   // Save 行的游标位置 = 当前页条目数
   const saveRowIndex = pageItems.length
 
-  // 过滤/翻页后修正越界游标
+  // Clamp out-of-bounds cursor after filter/page change
   useEffect(() => {
     if (currentPage > totalPages - 1) setCurrentPage(totalPages - 1)
   }, [currentPage, totalPages])
@@ -124,39 +126,39 @@ export function EnhancedCheckboxList({
     if (cursorInPage > saveRowIndex) setCursorInPage(saveRowIndex)
   }, [cursorInPage, saveRowIndex])
 
-  // 重置到第一页（搜索/筛选变更时调用）
+  // Reset to first page (called on search/filter change)
   function resetPage() {
     setCurrentPage(0)
     setCursorInPage(0)
   }
 
-  // 列表模式输入
+  // List mode input
   useInput(
     (input, key) => {
       if (key.upArrow) {
-        // ↑ 仅在当前页内向上移动
+        // ↑ move up within current page
         setCursorInPage((c) => Math.max(0, c - 1))
       } else if (key.downArrow) {
-        // ↓ 仅在当前页内向下移动（包含 Save 行）
+        // ↓ move down within current page (includes Save row)
         setCursorInPage((c) => Math.min(saveRowIndex, c + 1))
       } else if (key.leftArrow) {
-        // ← 翻到上一页，游标回到第一项
+        // ← previous page, reset cursor
         setCurrentPage((p) => Math.max(0, p - 1))
         setCursorInPage(0)
       } else if (key.rightArrow) {
-        // → 翻到下一页，游标回到第一项
+        // → next page, reset cursor
         setCurrentPage((p) => Math.min(totalPages - 1, p + 1))
         setCursorInPage(0)
       } else if (key.return || input === ' ') {
         if (cursorInPage === saveRowIndex) {
-          // 在 Save 行按 Enter/空格 → 直接进入下一步
+          // Enter/Space on Save row → proceed to next step
           onNext()
         } else if (input === ' ') {
-          // 在列表项按空格 → 切换选中
+          // Space on list item → toggle selection
           const item = pageItems[cursorInPage]
           if (item) onToggle(item.name)
         }
-        // 在列表项按 Enter 无效，引导用户移到 Save 行
+        // Enter on list item is a no-op; guide user to move to Save row
       } else if (key.escape) {
         onBack?.()
       } else if (input === '/') {
@@ -173,7 +175,7 @@ export function EnhancedCheckboxList({
     { isActive: isActive && !isSearchMode },
   )
 
-  // 搜索模式输入
+  // Search mode input
   useInput(
     (input, key) => {
       if (key.escape || key.return) {
@@ -201,14 +203,14 @@ export function EnhancedCheckboxList({
       <Box flexDirection="row" gap={2}>
         {isSearchMode ? (
           <Text color="yellow">
-            🔍 搜索: <Text>{searchQuery}</Text>
+            🔍 Search: <Text>{searchQuery}</Text>
             <Text color="yellow">_</Text>
-            <Text color="gray">  Esc/Enter 结束</Text>
+            <Text color="gray">  Esc/Enter to exit</Text>
           </Text>
         ) : (
           <Text color="gray">
-            {'/ 搜索  '}
-            <Text>f 活跃度: </Text>
+            {'/ search  '}
+            <Text>f activity: </Text>
             <Text color={filterTierIndex >= 0 ? 'yellow' : 'gray'}>{activeTierLabel}</Text>
           </Text>
         )}
@@ -217,7 +219,7 @@ export function EnhancedCheckboxList({
       {/* 列表 */}
       <Box flexDirection="column">
         {filteredItems.length === 0 ? (
-          <Text color="gray">  无匹配项</Text>
+          <Text color="gray">  No matches</Text>
         ) : (
           pageItems.map((item, i) => {
             const isSelected = selected.has(item.name)
@@ -238,9 +240,9 @@ export function EnhancedCheckboxList({
                 <Text color="gray">
                   {(item.installs !== undefined ? formatInstalls(item.installs) : '').padStart(6)}
                 </Text>
-                {/* 来源标签（单空格间距，避免 CJK 双宽字符叠加撑宽） */}
+                {/* source label */}
                 <Text color={item.source === 'official' ? 'green' : item.source === 'community' ? 'yellow' : 'gray'}>
-                  {' '}{item.source === 'official' ? '[官方]' : item.source === 'community' ? '[社区]' : ''}
+                  {' '}{item.source === 'official' ? '[official]' : item.source === 'community' ? '[community]' : ''}
                 </Text>
               </Box>
             )
@@ -257,21 +259,21 @@ export function EnhancedCheckboxList({
           bold={cursorInPage === saveRowIndex}
           color={cursorInPage === saveRowIndex ? 'cyan' : 'gray'}
         >
-          {'[ 保存并继续 → ]'}
+          {'[ Save & Continue → ]'}
         </Text>
         {cursorInPage !== saveRowIndex && (
-          <Text color="gray">（↓ 移到此处后按 Enter）</Text>
+          <Text color="gray">(↓ move here then press Enter)</Text>
         )}
       </Box>
 
       {/* 底部状态栏 */}
       <Text color="gray">
-        已选 {selected.size} |{' '}
+        Selected {selected.size} |{' '}
         {isFiltered
-          ? `筛选 ${filteredItems.length}/${items.length} 项 | `
-          : `共 ${items.length} 项 | `}
-        第 {safePage + 1}/{totalPages} 页
-        {!isSearchMode && '  ↑↓ 选择  ←→ 翻页  空格 选择/保存  / 搜索  f 筛选'}
+          ? `filtered ${filteredItems.length}/${items.length} | `
+          : `total ${items.length} | `}
+        page {safePage + 1}/{totalPages}
+        {!isSearchMode && `  ↑↓ move  ←→ page  space select  / search  f filter${onBack ? '  Esc back' : ''}`}
       </Text>
     </Box>
   )

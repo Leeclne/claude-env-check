@@ -34,7 +34,7 @@ function parseHooks(settings: Record<string, unknown>, scope: 'global' | 'projec
         result.push({ event, name, scope })
       })
     } else {
-      // hooks 字段本身直接是对象键值对的形式
+      // hooks field is a plain key-value object
       result.push({ event, name: event, scope })
     }
   }

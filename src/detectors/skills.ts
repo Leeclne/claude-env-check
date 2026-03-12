@@ -19,7 +19,7 @@ async function scanSkillsDir(dir: string, scope: 'global' | 'project'): Promise<
           results.push({ name: entry, scope })
         }
       } catch {
-        // 跳过无法读取的条目
+        // skip unreadable entries
       }
     }
     return results

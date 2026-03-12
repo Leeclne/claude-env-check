@@ -3,8 +3,8 @@ import { readFile } from 'fs/promises'
 import { getGlobalClaudeDir, readGlobalSettings } from '../config/claude.js'
 
 export type PluginEntry = {
-  name: string        // 不含 marketplace 后缀，如 "frontend-design"
-  fullKey: string     // 完整 key，如 "frontend-design@claude-plugins-official"
+  name: string        // without marketplace suffix, e.g. "frontend-design"
+  fullKey: string     // full key, e.g. "frontend-design@claude-plugins-official"
   marketplace: string
   scope: 'global' | 'project'
   enabled: boolean
@@ -46,7 +46,7 @@ export async function detectGlobalPlugins(): Promise<PluginEntry[]> {
     const name = atIndex > 0 ? fullKey.slice(0, atIndex) : fullKey
     const marketplace = atIndex > 0 ? fullKey.slice(atIndex + 1) : ''
 
-    // 找 user 级别的安装记录
+    // find user-scoped install record
     const userInstall = installs.find((i) => i.scope === 'user')
     if (!userInstall) continue
 
@@ -75,7 +75,7 @@ export async function detectProjectPlugins(projectDir: string): Promise<PluginEn
     const s = JSON.parse(raw) as Record<string, unknown>
     enabledMap = (s['enabledPlugins'] ?? {}) as Record<string, boolean>
   } catch {
-    // 无项目设置，忽略
+    // no project settings, ignore
   }
 
   const results: PluginEntry[] = []

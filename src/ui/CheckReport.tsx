@@ -19,7 +19,7 @@ function StatusIcon({ installed }: { installed: boolean }) {
 }
 
 function ScopeLabel({ scope }: { scope: 'global' | 'project' }) {
-  // 🌍 = 全局 ~/.claude/  📁 = 项目级 .claude/
+  // 🌍 = global ~/.claude/  📁 = project-level .claude/
   return <Text color="gray">{scope === 'global' ? '🌍' : '📁'}</Text>
 }
 
@@ -30,11 +30,11 @@ function SkillRow({ item }: { item: CheckItem<SkillEntry> }) {
       <Text color={item.installed ? 'white' : 'red'}>{item.name.padEnd(20)}</Text>
       {item.installed ? (
         <Box flexDirection="row" gap={1}>
-          <Text color="green">已安装</Text>
+          <Text color="green">installed</Text>
           <ScopeLabel scope={item.scope} />
         </Box>
       ) : (
-        <Text color="red">基线中存在，但此项目未安装</Text>
+        <Text color="red">in baseline but not installed in this project</Text>
       )}
     </Box>
   )
@@ -47,11 +47,11 @@ function McpRow({ item }: { item: CheckItem<McpEntry> }) {
       <Text color={item.installed ? 'white' : 'red'}>{item.name.padEnd(20)}</Text>
       {item.installed ? (
         <Box flexDirection="row" gap={1}>
-          <Text color="green">已配置</Text>
+          <Text color="green">configured</Text>
           <ScopeLabel scope={item.scope} />
         </Box>
       ) : (
-        <Text color="red">基线中存在，但此项目未配置</Text>
+        <Text color="red">in baseline but not configured in this project</Text>
       )}
     </Box>
   )
@@ -66,11 +66,11 @@ function HookRow({ item }: { item: CheckItem<HookEntry> }) {
       </Text>
       {item.installed ? (
         <Box flexDirection="row" gap={1}>
-          <Text color="green">已配置</Text>
+          <Text color="green">configured</Text>
           <ScopeLabel scope={item.scope} />
         </Box>
       ) : (
-        <Text color="red">基线中存在，但此项目未配置</Text>
+        <Text color="red">in baseline but not configured in this project</Text>
       )}
     </Box>
   )
@@ -83,11 +83,11 @@ function PluginRow({ item }: { item: CheckItem<PluginEntry> }) {
       <Text color={item.installed ? 'white' : 'red'}>{item.name.padEnd(20)}</Text>
       {item.installed ? (
         <Box flexDirection="row" gap={1}>
-          <Text color="green">{item.enabled ? '已安装并启用' : '已安装（未启用）'}</Text>
+          <Text color="green">{item.enabled ? 'installed & enabled' : 'installed (disabled)'}</Text>
           <ScopeLabel scope={item.scope} />
         </Box>
       ) : (
-        <Text color="red">基线中存在，但此项目未安装</Text>
+        <Text color="red">in baseline but not installed in this project</Text>
       )}
     </Box>
   )
@@ -112,7 +112,7 @@ export function CheckReport({ projectDir, skills, mcps, hooks, plugins }: Props)
   return (
     <Box flexDirection="column" gap={1} padding={1}>
       <Text bold color="cyan">
-        Claude 环境检测 — {projectDir}
+        Claude Environment Check — {projectDir}
       </Text>
 
       {skills.length > 0 && (
@@ -144,15 +144,15 @@ export function CheckReport({ projectDir, skills, mcps, hooks, plugins }: Props)
       )}
 
       {!hasAny && (
-        <Text color="gray">基线为空，请先运行 claude-env init 设置偏好。</Text>
+        <Text color="gray">Baseline is empty. Run claude-env init to set your preferences.</Text>
       )}
 
       <Text>{'─'.repeat(40)}</Text>
 
       {missingCount > 0 ? (
-        <Text color="yellow">⚠️  {missingCount} 项缺失，请参考上方清单手动安装。</Text>
+        <Text color="yellow">⚠️  {missingCount} item(s) missing. Install them manually using the list above.</Text>
       ) : (
-        <Text color="green">✅ 所有配置完整！</Text>
+        <Text color="green">✅ All items are present!</Text>
       )}
     </Box>
   )

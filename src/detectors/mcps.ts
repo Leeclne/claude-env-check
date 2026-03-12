@@ -39,7 +39,7 @@ export async function detectAllMcps(projectDir?: string): Promise<McpEntry[]> {
   const global = await detectGlobalMcps()
   const project = projectDir ? await detectProjectMcps(projectDir) : []
 
-  // 合并去重，项目级优先
+  // Merge and deduplicate; project-level entries take priority
   const seen = new Set<string>()
   const result: McpEntry[] = []
 

@@ -113,6 +113,1280 @@
       "repo": "https://github.com/levnikolaevich/claude-code-skills",
       "stars": 194,
       "installs": 194
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "Vercel's official collection of agent skills",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "installs": 198900
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Vercel's official collection of agent skills",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "installs": 156200
+    },
+    {
+      "name": "remotion-best-practices",
+      "description": "Agent Skills",
+      "source": "community",
+      "repo": "https://github.com/remotion-dev/skills",
+      "installs": 138600
+    },
+    {
+      "name": "azure-ai",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 131100
+    },
+    {
+      "name": "sleek-design-mobile-apps",
+      "description": "sleek-design-mobile-apps skill",
+      "source": "community",
+      "repo": "https://github.com/sleekdotdesign/agent-skills",
+      "installs": 123500
+    },
+    {
+      "name": "azure-messaging",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 118700
+    },
+    {
+      "name": "azure-observability",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 115500
+    },
+    {
+      "name": "azure-hosted-copilot-sdk",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 99800
+    },
+    {
+      "name": "agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-browser",
+      "installs": 90700
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "description": "Vercel's official collection of agent skills",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "installs": 79800
+    },
+    {
+      "name": "skill-creator",
+      "description": "Public repository for Agent Skills",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 75900
+    },
+    {
+      "name": "simple",
+      "description": "Simplified Claude Code skills for faster work and decision making",
+      "source": "community",
+      "repo": "https://github.com/roin-orca/skills",
+      "installs": 70400
+    },
+    {
+      "name": "azure-compute",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 66400
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "source": "community",
+      "repo": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "installs": 56900
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "description": "Vercel's official collection of agent skills",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-skills",
+      "installs": 55800
+    },
+    {
+      "name": "azure-cloud-migrate",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 55400
+    },
+    {
+      "name": "brainstorming",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 50500
+    },
+    {
+      "name": "browser-use",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/browser-use/browser-use",
+      "installs": 48100
+    },
+    {
+      "name": "seo-audit",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 39600
+    },
+    {
+      "name": "pdf",
+      "description": "Public repository for Agent Skills",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 34800
+    },
+    {
+      "name": "azure-postgres",
+      "description": "GitHub Copilot for Azure",
+      "source": "community",
+      "repo": "https://github.com/microsoft/github-copilot-for-azure",
+      "installs": 34800
+    },
+    {
+      "name": "audit-website",
+      "description": "Agent skills for squirrelscan website audit tool",
+      "source": "community",
+      "repo": "https://github.com/squirrelscan/skills",
+      "installs": 33900
+    },
+    {
+      "name": "copywriting",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 32800
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "description": "supabase-postgres-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/supabase/agent-skills",
+      "installs": 32300
+    },
+    {
+      "name": "next-best-practices",
+      "description": "next-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/next-skills",
+      "installs": 31500
+    },
+    {
+      "name": "pptx",
+      "description": "pptx skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 30600
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "systematic-debugging skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 28000
+    },
+    {
+      "name": "docx",
+      "description": "docx skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 27500
+    },
+    {
+      "name": "microsoft-foundry",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/microsoft/azure-skills",
+      "installs": 27400
+    },
+    {
+      "name": "writing-plans",
+      "description": "writing-plans skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 26100
+    },
+    {
+      "name": "xlsx",
+      "description": "xlsx skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 25500
+    },
+    {
+      "name": "marketing-psychology",
+      "description": "marketing-psychology skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 23700
+    },
+    {
+      "name": "test-driven-development",
+      "description": "test-driven-development skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 23100
+    },
+    {
+      "name": "webapp-testing",
+      "description": "webapp-testing skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 22000
+    },
+    {
+      "name": "executing-plans",
+      "description": "executing-plans skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 21900
+    },
+    {
+      "name": "programmatic-seo",
+      "description": "programmatic-seo skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 21400
+    },
+    {
+      "name": "content-strategy",
+      "description": "content-strategy skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 21300
+    },
+    {
+      "name": "better-auth-best-practices",
+      "description": "better-auth-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/better-auth/skills",
+      "installs": 21300
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "requesting-code-review skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 21100
+    },
+    {
+      "name": "agent-email-cli",
+      "description": "agent-email-cli skill",
+      "source": "community",
+      "repo": "https://github.com/zaddy6/agent-email-skill",
+      "installs": 20700
+    },
+    {
+      "name": "product-marketing-context",
+      "description": "product-marketing-context skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 19700
+    },
+    {
+      "name": "mcp-builder",
+      "description": "mcp-builder skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 19600
+    },
+    {
+      "name": "marketing-ideas",
+      "description": "marketing-ideas skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 19100
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "subagent-driven-development skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 17700
+    },
+    {
+      "name": "canvas-design",
+      "description": "canvas-design skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 17200
+    },
+    {
+      "name": "page-cro",
+      "description": "page-cro skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 17200
+    },
+    {
+      "name": "tailwind-design-system",
+      "description": "tailwind-design-system skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 17200
+    },
+    {
+      "name": "analytics-tracking",
+      "description": "analytics-tracking skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 16800
+    },
+    {
+      "name": "building-native-ui",
+      "description": "building-native-ui skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 16800
+    },
+    {
+      "name": "launch-strategy",
+      "description": "launch-strategy skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 16700
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "verification-before-completion skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 16600
+    },
+    {
+      "name": "schema-markup",
+      "description": "schema-markup skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 16600
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "receiving-code-review skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 16500
+    },
+    {
+      "name": "competitor-alternatives",
+      "description": "competitor-alternatives skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 16100
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "using-git-worktrees skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 15800
+    },
+    {
+      "name": "writing-skills",
+      "description": "writing-skills skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 15800
+    },
+    {
+      "name": "form-cro",
+      "description": "form-cro skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 15700
+    },
+    {
+      "name": "referral-program",
+      "description": "referral-program skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 15500
+    },
+    {
+      "name": "ai-image-generation",
+      "description": "ai-image-generation skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15300
+    },
+    {
+      "name": "free-tool-strategy",
+      "description": "free-tool-strategy skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 15300
+    },
+    {
+      "name": "qwen-image-2",
+      "description": "qwen-image-2 skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15200
+    },
+    {
+      "name": "qwen-image-2-pro",
+      "description": "qwen-image-2-pro skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15100
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "description": "dispatching-parallel-agents skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 15100
+    },
+    {
+      "name": "ai-video-generation",
+      "description": "ai-video-generation skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15100
+    },
+    {
+      "name": "nano-banana",
+      "description": "nano-banana skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15100
+    },
+    {
+      "name": "signup-flow-cro",
+      "description": "signup-flow-cro skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 15100
+    },
+    {
+      "name": "nano-banana-2",
+      "description": "nano-banana-2 skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15000
+    },
+    {
+      "name": "twitter-automation",
+      "description": "twitter-automation skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 15000
+    },
+    {
+      "name": "remotion-render",
+      "description": "remotion-render skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 14900
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "description": "paywall-upgrade-cro skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 14900
+    },
+    {
+      "name": "agent-tools",
+      "description": "agent-tools skill",
+      "source": "community",
+      "repo": "https://github.com/inference-shell/skills",
+      "installs": 14900
+    },
+    {
+      "name": "fun-brainstorming",
+      "description": "fun-brainstorming skill",
+      "source": "community",
+      "repo": "https://github.com/roin-orca/skills",
+      "installs": 14800
+    },
+    {
+      "name": "ab-test-setup",
+      "description": "ab-test-setup skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 14700
+    },
+    {
+      "name": "popup-cro",
+      "description": "popup-cro skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 14600
+    },
+    {
+      "name": "react:components",
+      "description": "react:components skill",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 14100
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "finishing-a-development-branch skill",
+      "source": "community",
+      "repo": "https://github.com/obra/superpowers",
+      "installs": 14100
+    },
+    {
+      "name": "design-md",
+      "description": "design-md skill",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 13800
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "doc-coauthoring skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 13700
+    },
+    {
+      "name": "git-commit",
+      "description": "git-commit skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 12800
+    },
+    {
+      "name": "typescript-advanced-types",
+      "description": "typescript-advanced-types skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 12700
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "brand-guidelines skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 12500
+    },
+    {
+      "name": "frontend responsive design standards",
+      "description": "frontend responsive design standards skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 12400
+    },
+    {
+      "name": "stitch-loop",
+      "description": "stitch-loop skill",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 12200
+    },
+    {
+      "name": "context7",
+      "description": "context7 skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 12200
+    },
+    {
+      "name": "shadcn",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/shadcn/ui",
+      "installs": 12100
+    },
+    {
+      "name": "planner",
+      "description": "planner skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 12000
+    },
+    {
+      "name": "enhance-prompt",
+      "description": "enhance-prompt skill",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 11600
+    },
+    {
+      "name": "role-creator",
+      "description": "role-creator skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 11600
+    },
+    {
+      "name": "super-swarm-spark",
+      "description": "super-swarm-spark skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 11500
+    },
+    {
+      "name": "parallel-task-spark",
+      "description": "parallel-task-spark skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 11500
+    },
+    {
+      "name": "internal-comms",
+      "description": "internal-comms skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 11500
+    },
+    {
+      "name": "seedance2-api",
+      "description": "seedance2-api skill",
+      "source": "community",
+      "repo": "https://github.com/hexiaochun/seedance2-api",
+      "installs": 11500
+    },
+    {
+      "name": "firecrawl",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/firecrawl/cli",
+      "installs": 11400
+    },
+    {
+      "name": "data-analysis",
+      "description": "data-analysis skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 11300
+    },
+    {
+      "name": "security-best-practices",
+      "description": "security-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 11300
+    },
+    {
+      "name": "template-skill",
+      "description": "template-skill skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 11200
+    },
+    {
+      "name": "vet",
+      "description": "vet skill",
+      "source": "community",
+      "repo": "https://github.com/imbue-ai/vet",
+      "installs": 11000
+    },
+    {
+      "name": "workflow-automation",
+      "description": "workflow-automation skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10900
+    },
+    {
+      "name": "native-data-fetching",
+      "description": "native-data-fetching skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 10900
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "slack-gif-creator skill",
+      "source": "community",
+      "repo": "https://github.com/anthropics/skills",
+      "installs": 10900
+    },
+    {
+      "name": "upgrading-expo",
+      "description": "upgrading-expo skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 10800
+    },
+    {
+      "name": "code-review",
+      "description": "code-review skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10800
+    },
+    {
+      "name": "baoyu-image-gen",
+      "description": "baoyu-image-gen skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 10400
+    },
+    {
+      "name": "task-planning",
+      "description": "task-planning skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10400
+    },
+    {
+      "name": "baoyu-post-to-wechat",
+      "description": "baoyu-post-to-wechat skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 10400
+    },
+    {
+      "name": "testing-strategies",
+      "description": "testing-strategies skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10400
+    },
+    {
+      "name": "codebase-search",
+      "description": "codebase-search skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10300
+    },
+    {
+      "name": "monitoring-observability",
+      "description": "monitoring-observability skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10300
+    },
+    {
+      "name": "shadcn-ui",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 10300
+    },
+    {
+      "name": "responsive-design",
+      "description": "responsive-design skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10300
+    },
+    {
+      "name": "copilot-coding-agent",
+      "description": "copilot-coding-agent skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10300
+    },
+    {
+      "name": "debugging",
+      "description": "debugging skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10300
+    },
+    {
+      "name": "ai-sdk",
+      "description": "ai-sdk skill",
+      "source": "community",
+      "repo": "https://github.com/vercel/ai",
+      "installs": 10300
+    },
+    {
+      "name": "vercel-deploy",
+      "description": "vercel-deploy skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10200
+    },
+    {
+      "name": "turborepo",
+      "description": "turborepo skill",
+      "source": "community",
+      "repo": "https://github.com/vercel/turborepo",
+      "installs": 10200
+    },
+    {
+      "name": "ralph",
+      "description": "ralph skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10200
+    },
+    {
+      "name": "gh-cli",
+      "description": "gh-cli skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 10000
+    },
+    {
+      "name": "omc",
+      "description": "omc skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10000
+    },
+    {
+      "name": "jeo",
+      "description": "jeo skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10000
+    },
+    {
+      "name": "oh-my-codex",
+      "description": "oh-my-codex skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 10000
+    },
+    {
+      "name": "baoyu-cover-image",
+      "description": "baoyu-cover-image skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9700
+    },
+    {
+      "name": "baoyu-xhs-images",
+      "description": "baoyu-xhs-images skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9700
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "description": "baoyu-article-illustrator skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9700
+    },
+    {
+      "name": "expo-dev-client",
+      "description": "expo-dev-client skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 9500
+    },
+    {
+      "name": "expo-deployment",
+      "description": "expo-deployment skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 9400
+    },
+    {
+      "name": "api-design-principles",
+      "description": "api-design-principles skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 9400
+    },
+    {
+      "name": "prd",
+      "description": "prd skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 9400
+    },
+    {
+      "name": "baoyu-slide-deck",
+      "description": "baoyu-slide-deck skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9400
+    },
+    {
+      "name": "baoyu-post-to-x",
+      "description": "baoyu-post-to-x skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9200
+    },
+    {
+      "name": "expo-tailwind-setup",
+      "description": "expo-tailwind-setup skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 9200
+    },
+    {
+      "name": "release-skills",
+      "description": "release-skills skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 9100
+    },
+    {
+      "name": "ai-seo",
+      "description": "ai-seo skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 9000
+    },
+    {
+      "name": "vite",
+      "description": "vite skill",
+      "source": "community",
+      "repo": "https://github.com/antfu/skills",
+      "installs": 9000
+    },
+    {
+      "name": "vue-best-practices",
+      "description": "vue-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/hyf0/vue-skills",
+      "installs": 8900
+    },
+    {
+      "name": "baoyu-infographic",
+      "description": "baoyu-infographic skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8900
+    },
+    {
+      "name": "baoyu-danger-x-to-markdown",
+      "description": "baoyu-danger-x-to-markdown skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8900
+    },
+    {
+      "name": "next-cache-components",
+      "description": "next-cache-components skill",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/next-skills",
+      "installs": 8900
+    },
+    {
+      "name": "baoyu-comic",
+      "description": "baoyu-comic skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8800
+    },
+    {
+      "name": "flutter-animations",
+      "description": "flutter-animations skill",
+      "source": "community",
+      "repo": "https://github.com/madteacher/mad-agents-skills",
+      "installs": 8800
+    },
+    {
+      "name": "baoyu-url-to-markdown",
+      "description": "baoyu-url-to-markdown skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8700
+    },
+    {
+      "name": "cold-email",
+      "description": "cold-email skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 8700
+    },
+    {
+      "name": "refactor",
+      "description": "refactor skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 8600
+    },
+    {
+      "name": "nodejs-backend-patterns",
+      "description": "nodejs-backend-patterns skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 8600
+    },
+    {
+      "name": "tdd-test-writer",
+      "description": "tdd-test-writer skill",
+      "source": "community",
+      "repo": "https://github.com/am-will/codex-skills",
+      "installs": 8600
+    },
+    {
+      "name": "baoyu-danger-gemini-web",
+      "description": "baoyu-danger-gemini-web skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8500
+    },
+    {
+      "name": "search",
+      "description": "Discover and install skills for AI agents.",
+      "source": "community",
+      "repo": "https://github.com/tavily-ai/skills",
+      "installs": 8500
+    },
+    {
+      "name": "baoyu-compress-image",
+      "description": "baoyu-compress-image skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 8500
+    },
+    {
+      "name": "python-performance-optimization",
+      "description": "python-performance-optimization skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 8400
+    },
+    {
+      "name": "excalidraw-diagram-generator",
+      "description": "excalidraw-diagram-generator skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 8400
+    },
+    {
+      "name": "create-auth-skill",
+      "description": "create-auth-skill skill",
+      "source": "community",
+      "repo": "https://github.com/better-auth/skills",
+      "installs": 8400
+    },
+    {
+      "name": "vitest",
+      "description": "vitest skill",
+      "source": "community",
+      "repo": "https://github.com/antfu/skills",
+      "installs": 8300
+    },
+    {
+      "name": "ad-creative",
+      "description": "ad-creative skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 8300
+    },
+    {
+      "name": "expo-api-routes",
+      "description": "expo-api-routes skill",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 8200
+    },
+    {
+      "name": "documentation-writer",
+      "description": "documentation-writer skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 8100
+    },
+    {
+      "name": "swiftui-expert-skill",
+      "description": "swiftui-expert-skill skill",
+      "source": "community",
+      "repo": "https://github.com/avdlee/swiftui-agent-skill",
+      "installs": 8100
+    },
+    {
+      "name": "vue-debug-guides",
+      "description": "vue-debug-guides skill",
+      "source": "community",
+      "repo": "https://github.com/hyf0/vue-skills",
+      "installs": 8000
+    },
+    {
+      "name": "expo-cicd-workflows",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "source": "community",
+      "repo": "https://github.com/expo/skills",
+      "installs": 8000
+    },
+    {
+      "name": "pptx-presentation-builder",
+      "description": "pptx-presentation-builder skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 8000
+    },
+    {
+      "name": "playwright-best-practices",
+      "description": "playwright-best-practices skill",
+      "source": "community",
+      "repo": "https://github.com/currents-dev/playwright-best-practices-skill",
+      "installs": 7900
+    },
+    {
+      "name": "remotion-video-production",
+      "description": "remotion-video-production skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 7900
+    },
+    {
+      "name": "architecture-patterns",
+      "description": "architecture-patterns skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 7900
+    },
+    {
+      "name": "seo-geo",
+      "description": "seo-geo skill",
+      "source": "community",
+      "repo": "https://github.com/resciencelab/opc-skills",
+      "installs": 7900
+    },
+    {
+      "name": "vue",
+      "description": "vue skill",
+      "source": "community",
+      "repo": "https://github.com/antfu/skills",
+      "installs": 7900
+    },
+    {
+      "name": "nextjs-app-router-patterns",
+      "description": "nextjs-app-router-patterns skill",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 7900
+    },
+    {
+      "name": "churn-prevention",
+      "description": "churn-prevention skill",
+      "source": "community",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "installs": 7900
+    },
+    {
+      "name": "videoagent-video-studio",
+      "description": "videoagent-video-studio skill",
+      "source": "community",
+      "repo": "https://github.com/pexoai/pexo-skills",
+      "installs": 7800
+    },
+    {
+      "name": "interface-design",
+      "description": "interface-design skill",
+      "source": "community",
+      "repo": "https://github.com/dammyjay93/interface-design",
+      "installs": 7800
+    },
+    {
+      "name": "java-springboot",
+      "description": "java-springboot skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7700
+    },
+    {
+      "name": "chrome-devtools",
+      "description": "chrome-devtools skill",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7600
+    },
+    {
+      "name": "dogfood",
+      "description": "dogfood skill",
+      "source": "community",
+      "repo": "https://github.com/vercel-labs/agent-browser",
+      "installs": 7600
+    },
+    {
+      "name": "frontend-design-system",
+      "description": "frontend-design-system skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 7600
+    },
+    {
+      "name": "image-generation-mcp",
+      "description": "image-generation-mcp skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 7600
+    },
+    {
+      "name": "agentic-principles",
+      "description": "agentic-principles skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 7600
+    },
+    {
+      "name": "remotion",
+      "description": "remotion skill",
+      "source": "community",
+      "repo": "https://github.com/google-labs-code/stitch-skills",
+      "installs": 7500
+    },
+    {
+      "name": "github-issues",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7500
+    },
+    {
+      "name": "code-review-excellence",
+      "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+      "source": "community",
+      "repo": "https://github.com/wshobson/agents",
+      "installs": 7400
+    },
+    {
+      "name": "marketing-skills-collection",
+      "description": "marketing-skills-collection skill",
+      "source": "community",
+      "repo": "https://github.com/supercent-io/skills-template",
+      "installs": 7400
+    },
+    {
+      "name": "baoyu-markdown-to-html",
+      "description": "baoyu-markdown-to-html skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 7400
+    },
+    {
+      "name": "web-design-reviewer",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7400
+    },
+    {
+      "name": "playwright-generate-test",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7300
+    },
+    {
+      "name": "microsoft-docs",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "source": "community",
+      "repo": "https://github.com/github/awesome-copilot",
+      "installs": 7300
+    },
+    {
+      "name": "baoyu-format-markdown",
+      "description": "baoyu-format-markdown skill",
+      "source": "community",
+      "repo": "https://github.com/jimliu/baoyu-skills",
+      "installs": 7300
     }
   ]
 }

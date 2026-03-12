@@ -45,7 +45,7 @@ export function InitWizard({
 
   const phaseBeforeConfirm: Phase = hasPlugins ? 'plugins' : 'mcps'
 
-  // confirm 阶段的输入由此处处理，列表阶段输入由 EnhancedCheckboxList 自己处理
+  // confirm phase input is handled here; list phases are handled inside EnhancedCheckboxList
   useInput(
     (input, key) => {
       if (key.return || input === 'y') {
@@ -67,7 +67,7 @@ export function InitWizard({
     return (
       <Box flexDirection="column" gap={1} padding={1}>
         <Text bold color="cyan">
-          Claude Env 初始化 — 第 1/{totalSteps} 步：Skills
+          Claude Env Init — Step 1/{totalSteps}: Skills
         </Text>
         <EnhancedCheckboxList
           key="skills"
@@ -76,6 +76,7 @@ export function InitWizard({
           isActive={true}
           onToggle={(name) => toggle(setSelectedSkills, name)}
           onNext={() => setPhase('mcps')}
+          onBack={exit}
           onQuit={exit}
         />
       </Box>
@@ -86,7 +87,7 @@ export function InitWizard({
     return (
       <Box flexDirection="column" gap={1} padding={1}>
         <Text bold color="cyan">
-          Claude Env 初始化 — 第 2/{totalSteps} 步：MCPs
+          Claude Env Init — Step 2/{totalSteps}: MCPs
         </Text>
         <EnhancedCheckboxList
           key="mcps"
@@ -106,10 +107,10 @@ export function InitWizard({
     return (
       <Box flexDirection="column" gap={1} padding={1}>
         <Text bold color="cyan">
-          Claude Env 初始化 — 第 3/{totalSteps} 步：Plugins
+          Claude Env Init — Step 3/{totalSteps}: Plugins
         </Text>
         {pluginItems.length === 0 ? (
-          <Text color="gray">未检测到已安装的 Plugin，按 Enter 跳过</Text>
+          <Text color="gray">No installed plugins detected. Press Enter to skip.</Text>
         ) : (
           <EnhancedCheckboxList
             key="plugins"
@@ -130,27 +131,27 @@ export function InitWizard({
   return (
     <Box flexDirection="column" gap={1} padding={1}>
       <Text bold color="cyan">
-        确认保存基线配置
+        Confirm baseline profile
       </Text>
       <Box flexDirection="column">
         <Text>
           Skills ({selectedSkills.size}):{' '}
-          <Text color="green">{Array.from(selectedSkills).join(', ') || '（无）'}</Text>
+          <Text color="green">{Array.from(selectedSkills).join(', ') || '(none)'}</Text>
         </Text>
         <Text>
           MCPs ({selectedMcps.size}):{' '}
-          <Text color="green">{Array.from(selectedMcps).join(', ') || '（无）'}</Text>
+          <Text color="green">{Array.from(selectedMcps).join(', ') || '(none)'}</Text>
         </Text>
         <Text>
           Plugins ({selectedPlugins.size}):{' '}
           <Text color="green">
             {Array.from(selectedPlugins)
               .map((k) => k.split('@')[0])
-              .join(', ') || '（无）'}
+              .join(', ') || '(none)'}
           </Text>
         </Text>
       </Box>
-      <Text color="gray">Enter/y 保存  n/Esc 返回修改  q 退出</Text>
+      <Text color="gray">Enter/y save  n/Esc go back  q quit</Text>
     </Box>
   )
 }

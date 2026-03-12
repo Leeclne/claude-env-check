@@ -5,17 +5,17 @@ import { runCheck } from './commands/check.js'
 
 program
   .name('claude-env')
-  .description('Claude Code 环境检测工具')
+  .description('Claude Code environment baseline manager')
   .version('0.1.0')
 
 program
   .command('init')
-  .description('全局初始化：从 catalog 选择基线 skills/MCPs 偏好')
+  .description('Global setup: choose baseline skills/MCPs from the catalog')
   .action(runInit)
 
 program
   .command('check')
-  .description('项目检测：对比基线，展示当前项目缺少哪些配置')
+  .description('Project check: compare against baseline and show missing items')
   .action(runCheck)
 
 program.parse()

@@ -11,8 +11,9 @@ export type CatalogItem = {
   stars?: number
   installs?: number
   /**
-   * true = 由维护者手动维护 installs/stars，update-stats 脚本会跳过此条目
-   * 适用于小众、个人或无法通过 npm/GitHub API 准确获取数据的项目
+   * true = installs/stars are maintained manually by the maintainer;
+   * the update-stats script will skip this entry.
+   * Use for niche, personal, or projects not trackable via npm/GitHub API.
    */
   manualStats?: boolean
 }
@@ -24,7 +25,7 @@ export type Catalog = {
 }
 
 function getCatalogDir(): string {
-  // 支持 src/ 下运行（tsx dev）和 dist/ 下运行（编译后）
+  // Works both from src/ (tsx dev) and dist/ (compiled)
   const __filename = fileURLToPath(import.meta.url)
   const __dirname = dirname(__filename)
   // src/catalog/loader.ts -> ../../catalog/

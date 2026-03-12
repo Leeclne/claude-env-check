@@ -10,7 +10,7 @@ export async function runInit(): Promise<void> {
 
   if (exists) {
     const profile = await readProfile()
-    console.log(`\n已存在基线配置（创建于 ${profile?.createdAt ?? '未知'}），将重新配置...\n`)
+    console.log(`\nExisting baseline profile found (created at ${profile?.createdAt ?? 'unknown'}). Reconfiguring...\n`)
   }
 
   const detected = await detectAll()
@@ -51,10 +51,10 @@ export async function runInit(): Promise<void> {
 
           await writeProfile(profile)
 
-          console.log('\n✅ 基线配置已保存！')
-          console.log(`   Skills (${selectedSkills.length}): ${selectedSkills.join(', ') || '（无）'}`)
-          console.log(`   MCPs   (${selectedMcps.length}): ${selectedMcps.join(', ') || '（无）'}`)
-          console.log(`   Plugins(${selectedPlugins.length}): ${selectedPlugins.map((k) => k.split('@')[0]).join(', ') || '（无）'}`)
+          console.log('\n✅ Baseline profile saved!')
+          console.log(`   Skills (${selectedSkills.length}): ${selectedSkills.join(', ') || '(none)'}`)
+          console.log(`   MCPs   (${selectedMcps.length}): ${selectedMcps.join(', ') || '(none)'}`)
+          console.log(`   Plugins(${selectedPlugins.length}): ${selectedPlugins.map((k) => k.split('@')[0]).join(', ') || '(none)'}`)
           console.log('')
 
           resolve()

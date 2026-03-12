@@ -5,8 +5,8 @@ export type ActivityTier = {
 }
 
 /**
- * 活跃度分级阈值（单位：安装数）
- * 在此处统一添加或调整区间，UI 组件自动适配，无需其他改动
+ * Activity tier thresholds (unit: install count).
+ * Add or adjust ranges here; UI components adapt automatically.
  */
 export const ACTIVITY_TIERS: ActivityTier[] = [
   { label: '>500K',     min: 500_001,  max: Infinity },

@@ -11,7 +11,7 @@ export async function runCheck(): Promise<void> {
   const profile = await readProfile()
 
   if (!profile) {
-    console.error('\n❌ 尚未初始化基线配置，请先运行：claude-env init\n')
+    console.error('\n❌ No baseline profile found. Run claude-env init first.\n')
     process.exit(1)
   }
 
